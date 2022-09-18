@@ -1,0 +1,158 @@
+.top-nav .top-social {
+    text-align: right;
+}
+
+.top-nav .top-menu {
+    text-align: left;
+}
+
+.header .top-banner .ad-element .ad-inner {
+    text-align: left;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav > li:first-child .nav-link {
+        padding-left: .5rem;
+        padding-right: 0;
+    }
+
+    .navbar-expand-lg .navbar-nav > li:last-child .nav-link {
+        padding-right: .5rem;
+        padding-left: 0;
+    }
+}
+
+.menu-search {
+    right: auto;
+    left: 0;
+}
+
+/**
+ * Blocks
+ */
+.block-cats {
+    text-align: left;
+}
+
+.block-item-category {
+    left: auto;
+    right: 10px;
+    top: 10px;
+}
+
+/**** Block 3 ****/
+.block4 .row .block-item:not(.block-item-big) .block-item-img {
+    float: right;
+    margin: 0 0 0 13px;
+}
+
+/**
+ * Grids
+ */
+.grid-item {
+    float: right;
+}
+
+.grid-item-overlay {
+    left: auto;
+    right: 0;
+}
+
+/***** Grid1 *******/
+.grid1 .grid-items-list .grid-item:nth-child(1) {
+    padding-right: 0;
+    padding-left: 1px;
+}
+
+.grid1 .grid-items-list .grid-item:nth-child(3) {
+    padding: 0 1px 1px 0;
+}
+
+.grid1 .grid-items-list .grid-item:nth-child(4) {
+    padding: 1px 1px 0 0;
+}
+
+/***** Grid2 *******/
+.grid2 .grid-items-list .grid-item:nth-child(1) {
+    padding-right: 0;
+    padding-left: 1px;
+}
+
+.grid2 .grid-items-list .grid-item:nth-child(2) {
+    padding: 0 1px 1px 1px;
+}
+
+.grid2 .grid-items-list .grid-item:nth-child(3) {
+    padding: 0 1px 1px 0;
+}
+
+.grid2 .grid-items-list .grid-item:nth-child(4) {
+    padding: 1px 1px 0 1px;
+}
+
+.grid2 .grid-items-list .grid-item:nth-child(5) {
+    padding: 1px 1px 0 0;
+}
+
+/***** Grid3 *******/
+.grid3 .grid-items-list .grid-item:nth-child(1) {
+    padding-right: 0;
+    padding-left: 1px;
+}
+
+.grid3 .grid-items-list .grid-item:nth-child(2) {
+    padding: 0 1px 1px 0;
+}
+
+.grid3 .grid-items-list .grid-item:nth-child(4) {
+    padding: 1px 1px 0 0;
+}
+
+.follow-us .fab {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+/**
+ * Sidebar
+ */
+.widget .block-item-img.img-side {
+    float: right;
+    margin: 0 0 0 13px;
+}
+
+/**
+ * Author widget
+ */
+.author .author-connect {
+    padding-left: 0;
+    padding-right: 15px;
+}
+
+.follow-me .fab {
+    margin-right: 0;
+    margin-left: 2px;
+}
+
+/**
+ * Article page
+ */
+.article-share .share-btn {
+    float: right;
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.article-share .share-btn i {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.article-content blockquote, .page-content blockquote {
+    padding: 18px 30px 18px 16px;
+}
+
+.article-content blockquote:after, .page-content blockquote:after {
+    left: auto;
+    right: 0;
+}

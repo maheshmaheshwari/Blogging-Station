@@ -1,0 +1,49 @@
+body {
+    line-height: 1.5;
+    color: #1c1c1c;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 100%;
+}
+
+img[style*="float:left"] {
+    margin: 5px 15px 0 0;
+}
+
+img[style*="float:right"] {
+    margin: 5px 0 0 15px;
+}
+
+blockquote {
+    position: relative;
+    font-size: 110%;
+    padding: 18px 16px 18px 30px;
+    background: #f1f1f1;
+    margin: 0 0 10px 0;
+    color: #616161;
+}
+
+blockquote:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    display: inline-block;
+    width: 6px;
+    background-color: #0080ce;
+}
+
+blockquote > p:last-child {
+    margin-bottom: 0;
+}
+
+h2 {
+    border-bottom: 3px solid;
+}
